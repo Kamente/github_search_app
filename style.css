@@ -1,0 +1,66 @@
+#main {
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: blue;
+}
+#h2{
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    color: blue;
+    
+}
+
+input[type="submit"]:hover {
+    color: aqua;
+}
+
+
+#github-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#user-list {
+    list-style: none;
+    flex-basis: 20%;
+    margin: 20%;
+    background-color: red;
+    height: fit-content;
+    padding: 20px;
+    border: 3px solid #5a5656;
+    border-radius: 10px;
+}
+
+#repos-list {
+    flex-basis: 48%;
+    padding: 10px;
+    border: 3px solid #1e1e1e;
+    border-radius: 5px;
+    list-style: none;
+
+}
+
+#user-list li,
+#repos-list li {
+    margin: 5px;
+    color: red;
+}
+
+#user-list a,
+#repos-list a {
+    text-decoration: none;
+    color: #333;
+}
+
+#user-list a:hover,
+#repos-list a:hover {
+    color: aqua;
+
+}
